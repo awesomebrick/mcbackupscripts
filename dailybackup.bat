@@ -5,3 +5,6 @@ set currentdate=%currentdate:/=_%
 
 cd "D:\backups\weekly"
 mkdir %currentdate%
+cd %currentdate%
+
+xcopy "C:\Desktop\minecraftserverold\world*" /s /e /v
