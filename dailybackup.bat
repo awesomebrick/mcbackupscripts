@@ -7,4 +7,4 @@ cd "D:\backups\weekly"
 mkdir %currentdate%
 cd %currentdate%
 
-xcopy "C:\Desktop\minecraftserverold\world*" /s /e /v
+xcopy "C:\Desktop\minecraftserver\world*" /s /e /v
