@@ -1,7 +1,7 @@
 @ECHO OFF
 
 set currentdate=%date:~4,10%
-set currentdate=%currentdate:/=_%
+set currentdate=%currentdate:/=-%
 
 cd "D:\backups\weekly"
 mkdir %currentdate%
