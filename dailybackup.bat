@@ -3,6 +3,19 @@ REM @ECHO OFF
 set currentdate=%date:~4,10%
 set currentdate=%currentdate:/=-%
 
+SendMessage.exe /message:258 /wparam:83 /windowtitle:"Command Prompt - start.bat"
+SendMessage.exe /message:258 /wparam:84 /windowtitle:"Command Prompt - start.bat"
+SendMessage.exe /message:258 /wparam:79 /windowtitle:"Command Prompt - start.bat"
+SendMessage.exe /message:258 /wparam:80 /windowtitle:"Command Prompt - start.bat"
+SendMessage.exe /message:258 /wparam:13 /windowtitle:"Command Prompt - start.bat"
+
+SendMessage.exe /message:258 /wparam:83 /windowtitle:"Select Command Prompt - start.bat"
+SendMessage.exe /message:258 /wparam:84 /windowtitle:"Select Command Prompt - start.bat"
+SendMessage.exe /message:258 /wparam:79 /windowtitle:"Select Command Prompt - start.bat"
+SendMessage.exe /message:258 /wparam:80 /windowtitle:"Select Command Prompt - start.bat"
+SendMessage.exe /message:258 /wparam:13 /windowtitle:"Select Command Prompt - start.bat"
+
+
 cd /D D:\backups\weekly
 REM mkdir %currentdate%
 REM cd %currentdate%
